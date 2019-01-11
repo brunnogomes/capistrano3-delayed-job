@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'capistrano', '~> 3.0', '>= 3.0.0'
-  spec.add_dependency 'daemons', '~> 1.2.4'
+  spec.add_dependency 'daemons', '~> 1.3'
 
   spec.add_development_dependency "rake", ">= 10.0"
   spec.add_development_dependency "rubocop", "~> 0.0", '>= 0.39.0'
